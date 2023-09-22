@@ -34,5 +34,5 @@ while endcounter != 1:
     #elif #board is full and no more moves can be made 
     else: #change player 
         turnct = turnct+1; 
-        player = turct%2 + 1; 
+        player = turnct%2 + 1; 
         print(player);
